@@ -1,0 +1,17 @@
+{
+    "name": "@example/jest-preset",
+    "version": "1.0.2",
+    "main": "jest-preset.js",
+    "license": "MIT",
+    "scripts": {},
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "@babel/core": "^7.16.2",
+        "@babel/preset-env": "^7.16.2",
+        "@babel/preset-typescript": "^7.16.2",
+        "@babel/preset-react": "^7.16.2",
+        "jest-junit": "^11.1.0",
+        "jest-standard-reporter": "^2.0.0",
+        "jest": "^26.6.0"
+    }
+}

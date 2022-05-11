@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./node_modules/@example/ts-config/index.json",
+    "include": ["src", "types"],
+    "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts", "**/*.test.tsx", "**/*.vtest.ts", "cypress"],
+    "compilerOptions": {
+        // match output dir to input dir. e.g. dist/index instead of dist/src/index
+        "rootDir": "./src",
+        "outDir": "./dist"
+    }
+}
